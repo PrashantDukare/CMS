@@ -1,0 +1,32 @@
+table {
+	margin: 20px auto;
+	padding: 0;
+	width: 100%;
+	text-align: left;
+	border-collapse: collapse;
+	font-family: arial, sans-serif;
+}
+
+td,
+th {
+	padding: 10px;
+	border: 1px solid #cccccc;
+}
+
+th,
+td {
+	text-align: center;
+	position: relative;
+}
+
+tr {
+	border: 1px solid #000;
+}
+
+thead tr:nth-child(even) {
+	background-color: #dddddd;
+}
+
+.action-container {
+	display: flex;
+}

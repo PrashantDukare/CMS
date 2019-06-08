@@ -1,0 +1,9 @@
+**/node_modules
+tmp
+**/.*.swp
+**/._*
+**/.DS_Store
+*.log
+*.iml
+package-lock.json
+.idea/

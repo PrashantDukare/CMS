@@ -1,0 +1,38 @@
+.page {
+	margin: 0 10%;
+}
+.page section,
+.page header,
+.page figure {
+	margin-bottom: 20px;
+}
+
+.edit-page section:hover,
+.edit-page header:hover,
+.edit-page figure:hover,
+.edit-page .para:hover{
+	border: 5px solid grey;
+}
+
+.edit-page .icons-container {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 10px;
+}
+
+.edit-page .icons-container i {
+	font-size:24px;
+	margin-left: 10px;
+}
+
+.components-container {
+	display: flex;
+	padding: 10px;
+	border-bottom: 1px solid darkgray;
+}
+
+.components-container label{
+	font-size: 16px;
+	font-weight: bold;
+	margin-right: 15px;
+}
